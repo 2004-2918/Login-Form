@@ -1,0 +1,33 @@
+
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+
+
+    <div class="container" autocomplete="on">
+      <h2>Login Form</h2>
+        <input type="text" placeholder="Full Name" id="name" [(ngModel)]="name">
+        <input type="email" placeholder="Email" id="email" [(ngModel)]="email"  required/>
+        <input type="password" placeholder="Password" id="password" [(ngModel)]="password" required>
+        
+        <div class="forgot-password">
+          <a href="#">Forgot Password?</a>
+        </div>
+        
+        
+        <div class="login-buttons">
+          <a href="#" class="button facebook">
+            <i class="fab fa-facebook-f"></i>
+            <span>Login with Facebook</span>
+          </a>
+          <a href="#" class="button google">
+            <i class="fab fa-google"></i>
+            <span>Login with Google</span>
+          </a>
+        </div>
+
+        <button type="submit" class="mybtn" (click)="setDetails()" routerLink="/Redirect">Login</button>        
+        
+      
+    </div>
+  

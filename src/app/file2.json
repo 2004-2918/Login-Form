@@ -1,0 +1,148 @@
+[
+    {
+        "User1":[
+    
+            {
+                "Login":[{
+                    "name":{"FirstName":"Vatsal","LastName":"Parikh"}
+                },
+                {
+                    "Email_id":"vatsal@gmail.com"
+                },
+                {
+                    "Password":"vatsal908"
+                }
+            ]},
+            {"OTP":1111},
+            {"Regiter":[
+                {
+                    "name":{"FirstName":"Vatsal","LastName":"Parikh"}
+                    
+                },
+                {
+                    "Email_id":
+                    [
+                        {
+                            "work":""
+                        },
+                        {
+                            "Student":""
+                        },
+                        {
+                            "Personal":"vatsal@gmail.com"
+                        }
+                    ]
+                },
+                {
+                    "Password":"vatsal123"
+                },
+                {
+                    "Phone_no":
+                    [
+                        {"phone1":9426003209},
+                        {"phone2":9328192316}
+                    ]
+                },
+                {
+                    "location":
+                    [
+                        {"Default Location":"380061, Gujarat India"},
+                        {"loc1":"abc"}
+                    ]
+                },
+                {
+                    "Gender":
+                    [
+                        {"Male":"True"},
+                        {"Female":"False"},
+                        {"Others":"False"}
+                    ]
+                },
+                {
+                    "Birthdate":
+                    [
+                        {"Day":28},
+                        {"Month":1},
+                        {"Year":2004}
+                    ]
+                }
+                
+            ]
+
+            }
+        ]
+},
+{
+    "User2":[
+
+        {
+            "Login":[{
+                "name":{"FirstName":"Priyanshu","LastName":"Shukla"}
+            },
+            {
+                "Email_id":"priyanshu@gmail.com"
+            },
+            {
+                "Password":"pri908"
+            }
+        ]},
+        {"OTP":1111},
+        {"Regiter":[
+            {
+                "name":{"FirstName":"Priyanshu","LastName":"Shukla"}
+                
+            },
+            {
+                "Email_id":
+                [
+                    {
+                        "work":""
+                    },
+                    {
+                        "Student":""
+                    },
+                    {
+                        "Personal":"priyanshu@gmail.com"
+                    }
+                ]
+            },
+            {
+                "Password":"pri908"
+            },
+            {
+                "Phone_no":
+                [
+                    {"phone1":9426003209},
+                    {"phone2":9328192316}
+                ]
+            },
+            {
+                "location":
+                [
+                    {"Default Location":"380061, Gujarat India"},
+                    {"loc1":"abc"}
+                ]
+            },
+            {
+                "Gender":
+                [
+                    {"Male":"True"},
+                    {"Female":"False"},
+                    {"Others":"False"}
+                ]
+            },
+            {
+                "Birthdate":
+                [
+                    {"Day":4},
+                    {"Month":1},
+                    {"Year":2004}
+                ]
+            }
+            
+        ]
+
+        }
+    ]
+}
+]
